@@ -1,0 +1,38 @@
+body {
+  margin:0;
+  padding:0;
+}
+//Typeography
+h1,h2,h3,h4 {
+  font-family: Arial;
+}
+
+a, p {
+  font-family: 'Arial';
+}
+//Main content
+.main-wrapper{
+  height: 1000em;
+  width: 100%;
+  background:black;
+}
+
+.main {
+  height: 400em;
+  width: 100%;
+  background:blue;
+}
+
+header{
+  background: white;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  height: 2em;
+  align-items:center;
+  
+  & a {
+    margin: 0 2em 0 2em;
+    color:blue;
+  }
+}
